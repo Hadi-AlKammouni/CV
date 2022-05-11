@@ -1,0 +1,52 @@
+.dotted {
+    color: black;
+    border-style: outset;
+    border-left: 6px solid tomato;
+    border-radius: 15%;
+    padding-left: 1%;
+    width: 500px;
+    margin-left: 10%;
+}
+
+.table{
+text-align: center;
+
+}
+
+.tableHeader{
+    background-color: tomato;
+    color: white;
+}
+
+.image{
+    border: 10px solid transparent;
+    padding: 5px;
+    border-image: url(images/border.jfif) 30 stretch;
+    margin-right: 10%;  
+}
+
+.heading{
+    font-style: oblique;
+    background-color: rgb(255, 183, 0) ;
+    text-align: center;
+}
+
+.paragraph{
+    border-style:dashed;
+    border-color: rgb(1, 10, 10);
+    background-color: tomato;
+    height: 100px;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.listing{
+    border-style: double;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lang{
+    border-style: inset;
+    font-size: 20px;
+}
